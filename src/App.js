@@ -1,5 +1,6 @@
 import './App.css';
 
+
 function App() {
   function showMessage() {
     var message = document.getElementById("message").value;
@@ -23,8 +24,7 @@ function App() {
             rel="noopener noreferrer"
           >
           
-
-            <form action="#" id="myForm">
+<form action="#" id="myForm">
       <textarea id="message" rows="1" cols="20" placeholder="deneme mesajınızı girin"></textarea>
   <button type="button" onclick="showMessage()">Gönder</button>
 </form>
